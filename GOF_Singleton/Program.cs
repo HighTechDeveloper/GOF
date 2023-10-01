@@ -19,7 +19,6 @@ namespace GOF_Singleton
                 instance = new Singleton();
             return instance;
         }
-
     }
 
     internal class Program
@@ -36,6 +35,5 @@ namespace GOF_Singleton
             Console.ReadLine();
         }
     }
-
 }
  
